@@ -4,7 +4,7 @@ This repository contains the thesis document, final presentation, and simulation
 
 The thesis document is accessible [here](https://github.com/vbisog/wireless-link-quality-thesis/Dynamic_Quality_Estimation_of_Wireless_Links_with_Autonomous_Agents.pdf)
 
-The final presentation is available [here](blob/main/presentation.pdf)
+The final presentation is available [here](presentation.pdf)
 
 The simulation results presented in the thesis are reported [here](https://github.com/vbisog/wireless-link-quality-thesis/simulations)
 
