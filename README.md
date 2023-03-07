@@ -9,7 +9,6 @@ The final presentation is available [here](doc/presentation.pdf)
 The simulation results presented in the thesis are reported [here](results)
 
 
-<img src="img/2023_02_05__22_15_35__DRPe__c__25fps__speed32x.gif" width="500" height="511" />
 <p align="center" width="100%">
     <img width="50%" src="img/2023_02_05__22_15_35__DRPe__c__25fps__speed32x.gif"> 
 </p>
