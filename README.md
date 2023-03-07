@@ -2,11 +2,15 @@
 
 This repository contains the thesis document, final presentation, and simulation results associated with my Master's Thesis, which focused on researching, implementing, and comparing methods to enhance the reliability and efficiency of wireless networks with UAVs. The thesis involved designing a model change detector to detect changes in link Packet Delivery Ratio (PDR) model parameters and proposing an estimation error metric.
 
-The thesis document is accessible [here](https://github.com/vbisog/wireless-link-quality-thesis/Dynamic_Quality_Estimation_of_Wireless_Links_with_Autonomous_Agents.pdf)
+The thesis document is accessible [here](doc/Dynamic_Quality_Estimation_of_Wireless_Links_with_Autonomous_Agents.pdf)
 
-The final presentation is available [here](presentation.pdf)
+The final presentation is available [here](doc/presentation.pdf)
 
-The simulation results presented in the thesis are reported [here](https://github.com/vbisog/wireless-link-quality-thesis/simulations)
+The simulation results presented in the thesis are reported [here](results)
+
+
+![](img/2023_02_05__22_15_35__DRPe__c__25fps__speed32x.gif)
+
 
 
 ## Abstract
