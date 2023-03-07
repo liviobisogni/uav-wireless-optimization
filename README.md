@@ -10,7 +10,7 @@ The simulation results presented in the thesis are reported [here](results)
 
 
 <p align="center" width="100%">
-    <img width="50%" src="img/2023_02_05__22_15_35__DRPe__c__25fps__speed32x.gif"> 
+    <img width="66%" src="img/2023_02_05__22_15_35__DRPe__c__25fps__speed32x.gif"> 
 </p>
 
 
