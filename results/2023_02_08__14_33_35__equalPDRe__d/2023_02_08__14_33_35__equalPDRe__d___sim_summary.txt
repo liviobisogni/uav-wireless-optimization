@@ -1,0 +1,72 @@
+SIMULATION NAME: 2023_02_08__14_33_35__equalPDRe__d
+
+K_A_old: 710,	K_A: 710
+K_B_old: 1727,	K_B: 1727
+K_C_old: 2660,	K_C: 2659
+
+Node 1 added at k_7 = 11
+Node 2 added at k_7 = 126
+Node 3 added at k_7 = 200
+Node 4 added at k_7 = 312
+Node 5 added at k_7 = 508
+Node 6 added at k_7 = 586
+
+A model change (#1) for the node 5 (link 4--->5) occurred at k_gs = 751
+A model change (#2) for the node 5 (link 4--->5) occurred at k_gs = 752
+A model change (#3) for the node 5 (link 4--->5) occurred at k_gs = 753
+A model change (#4) for the node 5 (link 4--->5) occurred at k_gs = 1948
+A model change (#5) for the node 5 (link 4--->5) occurred at k_gs = 1949
+A model change (#6) for the node 5 (link 4--->5) occurred at k_gs = 1951
+A model change (#7) for the node 5 (link 4--->5) occurred at k_gs = 2203
+A model change (#8) for the node 5 (link 4--->5) occurred at k_gs = 2272
+A model change (#9) for the node 5 (link 4--->5) occurred at k_gs = 2372
+
+A model change (#1) for the node 6 (link 5--->6) occurred at k_gs = 1982
+A model change (#2) for the node 6 (link 5--->6) occurred at k_gs = 1984
+A model change (#3) for the node 6 (link 5--->6) occurred at k_gs = 2169
+A model change (#4) for the node 6 (link 5--->6) occurred at k_gs = 2170
+A model change (#5) for the node 6 (link 5--->6) occurred at k_gs = 2172
+A model change (#6) for the node 6 (link 5--->6) occurred at k_gs = 2294
+A model change (#7) for the node 6 (link 5--->6) occurred at k_gs = 2295
+A model change (#8) for the node 6 (link 5--->6) occurred at k_gs = 2296
+A model change (#9) for the node 6 (link 5--->6) occurred at k_gs = 2304
+A model change (#10) for the node 6 (link 5--->6) occurred at k_gs = 2572
+A model change (#11) for the node 6 (link 5--->6) occurred at k_gs = 2575
+
+
+xi_1,2 = 3.76
+xi_2,3 = 7.47
+xi_3,4 = 6.42
+xi_4,5 = 37.19
+xi_5,6 = 17.51
+xi_6,7 = 5.46
+
+
+pdr_1,2([710..2659])  = 87.81%
+pdr_1,2([710..1726])  = 87.86%
+pdr_1,2([1727..2659]) = 87.76%
+
+pdr_2,3([710..2659])  = 88.68%
+pdr_2,3([710..1726])  = 88.68%
+pdr_2,3([1727..2659]) = 88.68%
+
+pdr_3,4([710..2659])  = 88.83%
+pdr_3,4([710..1726])  = 88.79%
+pdr_3,4([1727..2659]) = 88.87%
+
+pdr_4,5([710..2659])  = 87.76%
+pdr_4,5([710..1726])  = 88.72%
+pdr_4,5([1727..2659]) = 86.73%
+
+pdr_5,6([710..2659])  = 89.64%
+pdr_5,6([710..1726])  = 88.88%
+pdr_5,6([1727..2659]) = 90.47%
+
+pdr_6,7([710..2659])  = 88.81%
+pdr_6,7([710..1726])  = 88.86%
+pdr_6,7([1727..2659]) = 88.76%
+
+
+pdr_net([710..2659])  = 47.69%
+pdr_net([710..1726])  = 47.80%
+pdr_net([1727..2659]) = 47.61%

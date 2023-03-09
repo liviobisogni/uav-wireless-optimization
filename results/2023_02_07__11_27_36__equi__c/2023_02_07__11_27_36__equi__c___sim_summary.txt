@@ -1,0 +1,64 @@
+SIMULATION NAME: 2023_02_07__11_27_36__equi__c
+
+K_A_old: 763,	K_A: 763
+K_B_old: 1771,	K_B: 1771
+K_C_old: 2748,	K_C: 2734
+
+Node 1 added at k_7 = 10
+Node 2 added at k_7 = 114
+Node 3 added at k_7 = 175
+Node 4 added at k_7 = 362
+Node 5 added at k_7 = 650
+Node 6 added at k_7 = 708
+
+A model change (#1) for the node 5 (link 4--->5) occurred at k_gs = 921
+A model change (#2) for the node 5 (link 4--->5) occurred at k_gs = 922
+A model change (#3) for the node 5 (link 4--->5) occurred at k_gs = 923
+A model change (#4) for the node 5 (link 4--->5) occurred at k_gs = 1791
+A model change (#5) for the node 5 (link 4--->5) occurred at k_gs = 1793
+A model change (#6) for the node 5 (link 4--->5) occurred at k_gs = 1794
+
+A model change (#1) for the node 6 (link 5--->6) occurred at k_gs = 1970
+A model change (#2) for the node 6 (link 5--->6) occurred at k_gs = 1972
+A model change (#3) for the node 6 (link 5--->6) occurred at k_gs = 1973
+A model change (#4) for the node 6 (link 5--->6) occurred at k_gs = 1974
+A model change (#5) for the node 6 (link 5--->6) occurred at k_gs = 1975
+A model change (#6) for the node 6 (link 5--->6) occurred at k_gs = 1976
+
+
+xi_1,2 = 2.15
+xi_2,3 = 4.02
+xi_3,4 = 6.34
+xi_4,5 = 38.06
+xi_5,6 = 13.92
+xi_6,7 = 15.54
+
+
+pdr_1,2([763..2734])  = 76.72%
+pdr_1,2([763..1770])  = 76.16%
+pdr_1,2([1771..2734]) = 77.31%
+
+pdr_2,3([763..2734])  = 76.76%
+pdr_2,3([763..1770])  = 76.51%
+pdr_2,3([1771..2734]) = 77.04%
+
+pdr_3,4([763..2734])  = 93.03%
+pdr_3,4([763..1770])  = 92.94%
+pdr_3,4([1771..2734]) = 93.13%
+
+pdr_4,5([763..2734])  = 86.27%
+pdr_4,5([763..1770])  = 97.65%
+pdr_4,5([1771..2734]) = 73.32%
+
+pdr_5,6([763..2734])  = 85.71%
+pdr_5,6([763..1770])  = 74.59%
+pdr_5,6([1771..2734]) = 97.66%
+
+pdr_6,7([763..2734])  = 88.22%
+pdr_6,7([763..1770])  = 88.39%
+pdr_6,7([1771..2734]) = 88.04%
+
+
+pdr_net([763..2734])  = 34.10%
+pdr_net([763..1770])  = 33.98%
+pdr_net([1771..2734]) = 34.23%

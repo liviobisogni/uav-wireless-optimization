@@ -1,0 +1,69 @@
+SIMULATION NAME: 2023_02_05__22_15_35__DRPe__c
+
+K_A_old: 673,	K_A: 673
+K_B_old: 1658,	K_B: 1658
+K_C_old: 2611,	K_C: 2614
+
+Node 1 added at k_7 = 12
+Node 2 added at k_7 = 126
+Node 3 added at k_7 = 230
+Node 4 added at k_7 = 352
+Node 5 added at k_7 = 513
+Node 6 added at k_7 = 576
+
+A model change (#1) for the node 2 (link 1--->2) occurred at k_gs = 208
+
+A model change (#1) for the node 5 (link 4--->5) occurred at k_gs = 1696
+A model change (#2) for the node 5 (link 4--->5) occurred at k_gs = 1697
+A model change (#3) for the node 5 (link 4--->5) occurred at k_gs = 1702
+
+A model change (#1) for the node 6 (link 5--->6) occurred at k_gs = 1728
+A model change (#2) for the node 6 (link 5--->6) occurred at k_gs = 1729
+A model change (#3) for the node 6 (link 5--->6) occurred at k_gs = 1730
+A model change (#4) for the node 6 (link 5--->6) occurred at k_gs = 1733
+A model change (#5) for the node 6 (link 5--->6) occurred at k_gs = 1734
+A model change (#6) for the node 6 (link 5--->6) occurred at k_gs = 1735
+
+A model change (#1) for the node 7 (link 4--->7) occurred at k_gs = 501
+A model change (#2) for the node 7 (link 4--->7) occurred at k_gs = 502
+A model change (#3) for the node 7 (link 4--->7) occurred at k_gs = 503
+A model change (#4) for the node 7 (link 4--->7) occurred at k_gs = 505
+A model change (#5) for the node 7 (link 4--->7) occurred at k_gs = 506
+
+
+xi_1,2 = 4.18
+xi_2,3 = 6.00
+xi_3,4 = 6.97
+xi_4,5 = 4.05
+xi_5,6 = 7.75
+xi_6,7 = 8.21
+
+
+pdr_1,2([673..2614])  = 92.15%
+pdr_1,2([673..1657])  = 92.57%
+pdr_1,2([1658..2614]) = 91.74%
+
+pdr_2,3([673..2614])  = 89.72%
+pdr_2,3([673..1657])  = 89.27%
+pdr_2,3([1658..2614]) = 90.23%
+
+pdr_3,4([673..2614])  = 83.08%
+pdr_3,4([673..1657])  = 83.64%
+pdr_3,4([1658..2614]) = 82.48%
+
+pdr_4,5([673..2614])  = 88.48%
+pdr_4,5([673..1657])  = 85.21%
+pdr_4,5([1658..2614]) = 92.02%
+
+pdr_5,6([673..2614])  = 91.30%
+pdr_5,6([673..1657])  = 94.18%
+pdr_5,6([1658..2614]) = 88.23%
+
+pdr_6,7([673..2614])  = 89.77%
+pdr_6,7([673..1657])  = 90.61%
+pdr_6,7([1658..2614]) = 88.83%
+
+
+pdr_net([673..2614])  = 48.10%
+pdr_net([673..1657])  = 49.64%
+pdr_net([1658..2614]) = 46.47%
