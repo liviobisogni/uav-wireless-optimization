@@ -14,7 +14,7 @@ This repository contains the thesis document, final presentation, and simulation
 
 
 <p align="center" width="100%">
-    <img width="75%" src="img/2023_02_05__22_15_35__DRPe__c__25fps__speed32x.gif"> 
+    <img width="61.8%" src="img/2023_02_05__22_15_35__DRPe__c__25fps__speed32x.gif"> 
 </p>
 
 
@@ -33,34 +33,60 @@ _Keywords:_ wireless communication, line network, channel model, packet delivery
 
 A selection of key images from the project:
 
-* Context
-![](img/dual_link_network_schematic_link.png)
+#### Context
+<p align="center">
+    <img width="70%" src="img/dual_link_network_schematic_link.png"> 
+</p>
 
-* Introduction to relay placement problem
-![](img/dual_link_placements_comparison.png)
+#### Introduction to relay placement problem
+<p align="center">
+    <img width="75%" src="img/dual_link_placements_comparison.png"> 
+</p>
 
-* Line network weighted graph
-![](img/lineNetwork__1_2_3_4_5_6_7.png)
+#### Line network weighted graph
+<p align="center">
+    <img width="75%" src="img/lineNetwork__1_2_3_4_5_6_7.png"> 
+</p>
 
 ### Some Achieved Results
 
-* Estimates of PDR model parameters
-![](img/2023_02_05__22_15_35__DRPe__c__png/R_alpha__4,5.png)
+#### Estimates of PDR model parameters
+<p align="center">
+    <img width="75%" src="img/2023_02_05__22_15_35__DRPe__c__png/R_alpha__4,5.png"> 
+</p>
 
-* Estimated vs. actual link models
-![](img/2023_02_05__22_15_35__DRPe__c__png/P__4,5.png)
-![](img/2023_02_05__22_15_35__DRPe__c__png/P__5,6.png)
+#### Estimated vs. actual link models
+<p align="center">
+    <img width="75%" src="img/2023_02_05__22_15_35__DRPe__c__png/P__4,5.png"> 
+</p>
+<p align="center">
+    <img width="75%" src="img/2023_02_05__22_15_35__DRPe__c__png/P__5,6.png"> 
+</p>
 
-* Time evolution of the estimated link models
-![](img/2023_02_05__22_15_35__DRPe__c__png/3D_P__4,5.png)
-![](img/2023_02_05__22_15_35__DRPe__c__png/3D_P__5,6.png)
+#### Time evolution of the estimated link models
+<p align="center">
+    <img width="75%" src="img/2023_02_05__22_15_35__DRPe__c__png/3D_P__4,5.png"> 
+</p>
+<p align="center">
+    <img width="75%" src="img/2023_02_05__22_15_35__DRPe__c__png/3D_P__5,6.png"> 
+</p>
 
-* Screenshot of the simulation environment showing the placement of UAVs (source and relays) and ground station nodes, with blue and red regions indicating areas where link PDR model parameters change (degrade and improve, respectively)
-![](results/2023_02_05__22_15_35__DRPe__c/k_C.png)
+#### Simulation environment
+It depicts the placement of UAVs (source and relays) and ground station nodes, with blue and red regions indicating areas where link PDR model parameters change (degrade and improve, respectively)
+<p align="center">
+    <img width="61.8%" src="results/2023_02_05__22_15_35__DRPe__c/k_C.png"> 
+</p>
 
-* Link and network PDRs
-![](img/2023_02_05__22_15_35__DRPe__c__png/P__net.png)
-![](img/2023_02_05__22_15_35__DRPe__c__png/3D_P__net.png)
+#### Link and network PDRs
+<p align="center">
+    <img width="75%" src="img/2023_02_05__22_15_35__DRPe__c__png/P__net.png"> 
+</p>
+<p align="center">
+    <img width="75%" src="img/2023_02_05__22_15_35__DRPe__c__png/3D_P__net.png"> 
+</p>
 
-* Relay placement strategis comparison (average network PDR in different scenarios)
-![](img/Pnet__histo.png)
+#### Relay placement strategies comparison
+Comparing average network PDR in different scenarios
+<p align="center">
+    <img width="65%" src="img/Pnet__histo.png"> 
+</p>
