@@ -38,24 +38,24 @@ A selection of key images from the project:
     <img width="70%" src="img/dual_link_network_schematic_link.png"> 
 </p>
 
-#### Introduction to relay placement problem
+#### Introduction to Relay Placement Problem
 <p align="center">
     <img width="75%" src="img/dual_link_placements_comparison.png"> 
 </p>
 
-#### Line network weighted graph
+#### Line Network Weighted Graph
 <p align="center">
     <img width="75%" src="img/lineNetwork__1_2_3_4_5_6_7.png"> 
 </p>
 
 ### Some Achieved Results
 
-#### Estimates of PDR model parameters
+#### Estimates of PDR Model Parameters
 <p align="center">
     <img width="75%" src="img/2023_02_05__22_15_35__DRPe__c__png/R_alpha__4,5.png"> 
 </p>
 
-#### Estimated vs. actual link models
+#### Estimated vs. Actual Link Models
 <p align="center">
     <img width="75%" src="img/2023_02_05__22_15_35__DRPe__c__png/P__4,5.png"> 
 </p>
@@ -63,7 +63,7 @@ A selection of key images from the project:
     <img width="75%" src="img/2023_02_05__22_15_35__DRPe__c__png/P__5,6.png"> 
 </p>
 
-#### Time evolution of the estimated link models
+#### Time Evolution of the Estimated Link Models
 <p align="center">
     <img width="75%" src="img/2023_02_05__22_15_35__DRPe__c__png/3D_P__4,5.png"> 
 </p>
@@ -71,13 +71,13 @@ A selection of key images from the project:
     <img width="75%" src="img/2023_02_05__22_15_35__DRPe__c__png/3D_P__5,6.png"> 
 </p>
 
-#### Simulation environment
+#### Simulation Environment
 It depicts the placement of UAVs (source and relays) and ground station nodes, with blue and red regions indicating areas where link PDR model parameters change (degrade and improve, respectively)
 <p align="center">
     <img width="61.8%" src="results/2023_02_05__22_15_35__DRPe__c/k_C.png"> 
 </p>
 
-#### Link and network PDRs
+#### Link and Network PDRs
 <p align="center">
     <img width="75%" src="img/2023_02_05__22_15_35__DRPe__c__png/P__net.png"> 
 </p>
@@ -85,7 +85,7 @@ It depicts the placement of UAVs (source and relays) and ground station nodes, w
     <img width="75%" src="img/2023_02_05__22_15_35__DRPe__c__png/3D_P__net.png"> 
 </p>
 
-#### Relay placement strategies comparison
+#### Relay Placement Strategies Comparison
 Comparing average network PDR in different scenarios
 <p align="center">
     <img width="65%" src="img/Pnet__histo.png"> 
