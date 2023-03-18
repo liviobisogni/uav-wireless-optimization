@@ -33,17 +33,38 @@ _Keywords:_ wireless communication, line network, channel model, packet delivery
 
 A selection of key images from the project:
 
-#### Context
+#### Context: Linear network with One Source, One or More Relays, and One Ground Station
+The communication network in question consists of a linear arrangement of nodes, which includes one source node, one or more relay nodes, and one ground station node. The exact number of relay nodes may vary, depending on the specific network configuration.
+
+The network topology can be represented by an oriented graph, where the nodes represent the communication points, and the edges represent the links between them. The link Packet Delivery Ratio, denoted by _P<sub>i,j</sub>_, is the probability that a packet sent from node _i_ will be successfully received by node _j_. This probability depends on the length of each link, denoted by _d<sub>i,j</sub>_, as well as two parameters:
+
+* _R<sub>i,j</sub>_: the link length at which the delivery ratio is 50%
+* _α<sub>i,j</sub>_: the steepness of the curve that characterizes how quickly the link PDR decreases with increasing link length
+In other words, the link PDR decreases as the distance between the nodes increases, and the rate of this decrease is determined by the α<sub>i,j</sub> parameter. A larger value of _α<sub>i,j</sub>_ means the PDR decreases more steeply with increasing link length.
+
+By analyzing these parameters for each link in the network, we can better understand the network performance and identify potential bottlenecks or areas for improvement.
+
+While the figure shows a dual-link network with one source, one relay, and one ground station, the same concepts apply to the linear network with one source, one or more relays, and one ground station.
+
 <p align="center">
     <img width="70%" src="img/dual_link_network_schematic_link.png"> 
 </p>
 
+The placement of the relay has a direct impact on the network PDR (_P<sub>net</sub>_), which is why finding a good placement is crucial in improving the network performance.
+
+
 #### Introduction to Relay Placement Problem
+In a line network, the Packet Delivery Ratio of the entire network, denoted by _P<sub>net</sub>_, can be calculated as the product of the individual link PDRs, under certain assumptions. This means that the probability of a packet sent from the source node being successfully received by the ground station is dependent on the success rate of each link in the network. By optimizing the PDR of each link, we can improve the overall performance of the network.
+
+The dual-link network in the figure below is composed of 1 source, 1 relay, and 1 ground station. The 2 link PDRs _P<sub>1,2</sub>_ and _P<sub>2,3</sub>_ are represented by the blue line (with parameters
+(_R<sub>1,2</sub>_, _α<sub>1,2</sub>_) = (65 m, 4)) and the green line (with parameters (_R<sub>2,3</sub>_, _α<sub>2,3</sub>_) = (50 m, 10)), while the orange line represents their product, _P<sub>net</sub>_. The area under _P<sub>net</sub>_ is shaded in orange.
+
 <p align="center">
     <img width="75%" src="img/dual_link_placements_comparison.png"> 
 </p>
 
-#### Line Network Weighted Graph
+#### Oriented Weighted Graph of a Line Network
+Represented in the figure below: 1 source, 5 relays, and 1 ground station.
 <p align="center">
     <img width="75%" src="img/lineNetwork__1_2_3_4_5_6_7.png"> 
 </p>
@@ -86,7 +107,7 @@ It depicts the placement of UAVs (source and relays) and ground station nodes, w
 </p>
 
 #### Relay Placement Strategies Comparison
-Comparing average network PDR in different scenarios
+Comparing average network PDR of different relay placement strategies in different scenarios
 <p align="center">
     <img width="65%" src="img/Pnet__histo.png"> 
 </p>
