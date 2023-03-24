@@ -71,12 +71,12 @@ Represented in the figure below: 1 source, 5 relays, and 1 ground station.
 
 ### Some Achieved Results
 
-#### Estimates of PDR Model Parameters
+#### Estimates of Link PDR Model Parameters
 <p align="center">
     <img width="75%" src="img/2023_02_05__22_15_35__DRPe__c__png/R_alpha__4,5.png"> 
 </p>
 
-#### Estimated vs. Actual Link Models
+#### Estimated vs. Actual Link PDR Models
 <p align="center">
     <img width="75%" src="img/2023_02_05__22_15_35__DRPe__c__png/P__4,5.png"> 
 </p>
@@ -84,7 +84,7 @@ Represented in the figure below: 1 source, 5 relays, and 1 ground station.
     <img width="75%" src="img/2023_02_05__22_15_35__DRPe__c__png/P__5,6.png"> 
 </p>
 
-#### Time Evolution of the Estimated Link Models
+#### Time Evolution of the Estimated Link PDR Models
 <p align="center">
     <img width="75%" src="img/2023_02_05__22_15_35__DRPe__c__png/3D_P__4,5.png"> 
 </p>
@@ -93,7 +93,8 @@ Represented in the figure below: 1 source, 5 relays, and 1 ground station.
 </p>
 
 #### Simulation Environment
-It depicts the placement of UAVs (source and relays) and ground station nodes, with blue and red regions indicating areas where link PDR model parameters change (degrade and improve, respectively)
+The graphical visualizer shows the main waypoints – ‘A’, ‘B’, and ‘C’ – that the source passes through during successive TDMA rounds, as recorded by the ground station with a log file. The bigger, encircled values represent the node UIDs, whereas the values located above the nodes represent their speed values (in m/s), and the values located below represent their altitude values (in m).
+Finally, the blue and red regions indicate areas where link PDR model parameters change (degrade and improve, respectively).
 <p align="center">
     <img width="61.8%" src="results/2023_02_05__22_15_35__DRPe__c/k_C.png"> 
 </p>
@@ -107,7 +108,7 @@ It depicts the placement of UAVs (source and relays) and ground station nodes, w
 </p>
 
 #### Relay Placement Strategies Comparison
-Comparing average network PDR of different relay placement strategies in different scenarios
+Comparing average network PDR of different relay placement strategies in different scenarios:
 <p align="center">
     <img width="65%" src="img/Pnet__histo.png"> 
 </p>
