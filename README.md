@@ -36,11 +36,11 @@ A selection of key images from the project:
 #### Context: Linear network with One Source, One or More Relays, and One Ground Station
 The communication network in question consists of a linear arrangement of nodes, which includes one source node, one or more relay nodes, and one ground station node. The exact number of relay nodes may vary, depending on the specific network configuration.
 
-The network topology can be represented by an oriented graph, where the nodes represent the communication points, and the edges represent the links between them. The link Packet Delivery Ratio, denoted by _P<sub>i,j</sub>_, is the probability that a packet sent from node _i_ will be successfully received by node _j_. This probability depends on the length of each link, denoted by _d<sub>i,j</sub>_, as well as two parameters:
+The network topology can be represented by an oriented graph, where the nodes represent the communication points, and the edges represent the links between them. The link Packet Delivery Ratio, denoted by $P_{i,j}$, is the probability that a packet sent from node _i_ will be successfully received by node $j$. This probability depends on the length of each link, denoted by $d_{i,j}$, as well as two parameters:
 
-* _R<sub>i,j</sub>_: the link length at which the delivery ratio is 50%
-* _α<sub>i,j</sub>_: the steepness of the curve that characterizes how quickly the link PDR decreases with increasing link length
-In other words, the link PDR decreases as the distance between the nodes increases, and the rate of this decrease is determined by the α<sub>i,j</sub> parameter. A larger value of _α<sub>i,j</sub>_ means the PDR decreases more steeply with increasing link length.
+* $R_{i,j}$: the link length at which the delivery ratio is $50\%$
+* $\alpha_{i,j}$: the steepness of the curve that characterizes how quickly the link PDR decreases with increasing link length
+In other words, the link PDR decreases as the distance between the nodes increases, and the rate of this decrease is determined by the $\alpha_{i,j}$ parameter. A larger value of $\alpha_{i,j}$ means the PDR decreases more steeply with increasing link length.
 
 By analyzing these parameters for each link in the network, we can better understand the network performance and identify potential bottlenecks or areas for improvement.
 
@@ -50,14 +50,13 @@ While the figure shows a dual-link network with one source, one relay, and one g
     <img width="70%" src="img/dual_link_network_schematic_link.png"> 
 </p>
 
-The placement of the relay has a direct impact on the network PDR (_P<sub>net</sub>_), which is why finding a good placement is crucial in improving the network performance.
+The placement of the relay has a direct impact on the network PDR ($P_{net}$), which is why finding a good placement is crucial in improving the network performance.
 
 
 #### Introduction to Relay Placement Problem
-In a line network, the Packet Delivery Ratio of the entire network, denoted by _P<sub>net</sub>_, can be calculated as the product of the individual link PDRs, under certain assumptions. This means that the probability of a packet sent from the source node being successfully received by the ground station is dependent on the success rate of each link in the network. By optimizing the PDR of each link, we can improve the overall performance of the network.
+In a line network, the Packet Delivery Ratio of the entire network, denoted by $P_{net}$, can be calculated as the product of the individual link PDRs, under certain assumptions. This means that the probability of a packet sent from the source node being successfully received by the ground station is dependent on the success rate of each link in the network. By optimizing the PDR of each link, we can improve the overall performance of the network.
 
-The dual-link network in the figure below is composed of 1 source, 1 relay, and 1 ground station. The 2 link PDRs _P<sub>1,2</sub>_ and _P<sub>2,3</sub>_ are represented by the blue line (with parameters
-(_R<sub>1,2</sub>_, _α<sub>1,2</sub>_) = (65 m, 4)) and the green line (with parameters (_R<sub>2,3</sub>_, _α<sub>2,3</sub>_) = (50 m, 10)), while the orange line represents their product, _P<sub>net</sub>_. The area under _P<sub>net</sub>_ is shaded in orange.
+The dual-link network in the figure below is composed of 1 source, 1 relay, and 1 ground station. The 2 link PDRs $P_{1,2}$ and $P_{2,3}$ are represented by the blue line (with parameters $(R_{1,2}, \alpha_{1,2}) = (65 \, \mathrm{m}, 4)$) and the green line (with parameters $(R_{2,3}, \alpha_{2,3}) = (50 \, \mathrm{m}, 10)$), while the orange line represents their product, $P_{net}$. The area under $P_{net}$ is shaded in orange.
 
 <p align="center">
     <img width="75%" src="img/dual_link_placements_comparison.png"> 
@@ -93,7 +92,7 @@ Represented in the figure below: 1 source, 5 relays, and 1 ground station.
 </p>
 
 #### Simulation Environment
-The graphical visualizer shows the main waypoints – ‘A’, ‘B’, and ‘C’ – that the source passes through during successive TDMA rounds, as recorded by the ground station with a log file. The bigger, encircled values represent the node UIDs, whereas the values located above the nodes represent their speed values (in m/s), and the values located below represent their altitude values (in m).
+The graphical visualizer shows the main waypoints – ‘A’, ‘B’, and ‘C’ – that the source passes through during successive TDMA (Time-Division Multiple Access) rounds, as recorded by the ground station with a log file. The bigger, encircled values represent the node UIDs, whereas the values located above the nodes represent their speed values (in m/s), and the values located below represent their altitude values (in m).
 Finally, the blue and red regions indicate areas where link PDR model parameters change (degrade and improve, respectively).
 <p align="center">
     <img width="61.8%" src="results/2023_02_05__22_15_35__DRPe__c/k_C.png"> 
