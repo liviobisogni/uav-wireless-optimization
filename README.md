@@ -38,7 +38,7 @@ The communication network in question consists of a linear arrangement of nodes,
 
 The network topology can be represented by an oriented graph, where the nodes represent the communication points, and the edges represent the links between them. The link Packet Delivery Ratio, denoted by $P_{i,j}$, is the probability that a packet sent from node _i_ will be successfully received by node $j$. This probability depends on the length of each link, denoted by $d_{i,j}$, as well as two parameters:
 
-* $R_{i,j}$: the link length at which the delivery ratio is $50\%$
+* $R_{i,j}$: the link length at which the delivery ratio is $50$%
 * $\alpha_{i,j}$: the steepness of the curve that characterizes how quickly the link PDR decreases with increasing link length
 In other words, the link PDR decreases as the distance between the nodes increases, and the rate of this decrease is determined by the $\alpha_{i,j}$ parameter. A larger value of $\alpha_{i,j}$ means the PDR decreases more steeply with increasing link length.
 
@@ -56,7 +56,7 @@ The placement of the relay has a direct impact on the network PDR ($P_{net}$), w
 #### Introduction to Relay Placement Problem
 In a line network, the Packet Delivery Ratio of the entire network, denoted by $P_{net}$, can be calculated as the product of the individual link PDRs, under certain assumptions. This means that the probability of a packet sent from the source node being successfully received by the ground station is dependent on the success rate of each link in the network. By optimizing the PDR of each link, we can improve the overall performance of the network.
 
-The dual-link network in the figure below is composed of 1 source, 1 relay, and 1 ground station. The 2 link PDRs $P_{1,2}$ and $P_{2,3}$ are represented by the blue line (with parameters $(R_{1,2}, \alpha_{1,2}) = (65 \, \mathrm{m}, 4)$) and the green line (with parameters $(R_{2,3}, \alpha_{2,3}) = (50 \, \mathrm{m}, 10)$), while the orange line represents their product, $P_{net}$. The area under $P_{net}$ is shaded in orange.
+The dual-link network in the figure below is composed of 1 source, 1 relay, and 1 ground station. The two link PDRs $P_{1,2}$ and $P_{2,3}$ are represented by the blue line (with parameters $(R_{1,2}, \alpha_{1,2}) = (65 \mathrm{m},4)$ ) and the green line (with parameters $(R_{2,3}, \alpha_{2,3}) = (50 \mathrm{m}, 10)$ ), while the orange line represents their product, $P_{net}$. The area under $P_{net}$ is shaded in orange.
 
 <p align="center">
     <img width="75%" src="img/dual_link_placements_comparison.png"> 
